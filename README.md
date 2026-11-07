@@ -2,7 +2,11 @@
 
 Homebrew formulae by drsassafras.
 
-    brew install drsassafras/tap/sac
+    brew tap drsassafras/tap
+    brew trust drsassafras/tap
+    brew install sac
+
+Homebrew 7 asks you to trust a third-party tap once before it installs from it.
 
 | Formula | What it is |
 |---|---|
